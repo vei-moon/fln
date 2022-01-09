@@ -16,6 +16,7 @@
   --mb-6: 3rem;
   --z-back: -10;
   --z-fixed: 100;
+  --background-color: #181a1b;
 }
 
 @media screen and (min-width: 968px) {
@@ -40,7 +41,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: #181a1b;
+  background-color: var(--background-color);
 }
 
 h1, h2, p {
