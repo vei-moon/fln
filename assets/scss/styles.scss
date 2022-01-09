@@ -41,7 +41,7 @@ body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    background-color: base.$primary-color;
+    background-color: var(--background-color;
 }
 h1,h2,p{
     margin: 0;  
