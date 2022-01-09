@@ -2,7 +2,7 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  --hue-color: 224;
+  --hue-color: 330;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   --body-font: 'Poppins', sans-serif;
@@ -27,6 +27,7 @@
   }
 }
 
+
 *, ::before, ::after {
   box-sizing: border-box;
 }
@@ -40,7 +41,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: var(--background-color);
 }
 
 h1, h2, p {
@@ -62,6 +62,7 @@ img {
   height: auto;
   display: block;
 }
+
 
 .section-title {
   position: relative;
@@ -89,6 +90,7 @@ img {
   padding-bottom: 2rem;
 }
 
+
 .bd-grid {
   max-width: 1024px;
   display: grid;
@@ -104,6 +106,12 @@ img {
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+
+#icon{
+  width: 30px;
+  cursor: pointer;
 }
 
 .nav {
@@ -160,7 +168,6 @@ img {
   cursor: pointer;
 }
 
-/*Active menu*/
 .active::after {
   position: absolute;
   content: '';
@@ -174,6 +181,7 @@ img {
 .show {
   right: 0;
 }
+
 .home {
   position: relative;
   row-gap: 5rem;
@@ -223,6 +231,7 @@ img {
 .home__blob-img {
   width: 440px;
 }
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -296,7 +305,7 @@ img {
   left: 0;
   bottom: 0;
   background-color: var(--first-color);
-  height: .25rem;
+  height: .20rem;
   border-radius: .5rem;
   z-index: var(--z-back);
 }
@@ -631,4 +640,11 @@ body {
   .home__img {
     width: 450px;
   }
+}
+
+.Discord {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9%;
 }
