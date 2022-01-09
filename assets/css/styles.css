@@ -16,7 +16,6 @@
   --mb-6: 3rem;
   --z-back: -10;
   --z-fixed: 100;
-  --background-color: #181a1b;
 }
 
 @media screen and (min-width: 968px) {
