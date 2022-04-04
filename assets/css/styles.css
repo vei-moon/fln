@@ -2,8 +2,8 @@
 :root {
   --header-height: 3rem;
   --font-semi: 600;
-  --hue-color: 330;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --hue-color: 52;
+  --first-color: hsl(var(--hue-color), 100%, 45%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -640,6 +640,14 @@ body {
   .home__img {
     width: 450px;
   }
+}
+
+.downside {
+  background: rgba(255,221, .1);
+}
+
+.upside {
+  background: rgba(0,87,183, .9);
 }
 
 .Discord {
